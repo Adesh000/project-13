@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@500&family=Raleway:wght@400;500&family=Rubik+Moonrocks&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+.container {
+    background-color: #6f45c1;
+    color: #fff;
+}
+
+nav {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 700px;
+    position: relative;
+    left: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+a:hover {
+    color: #1fc8c8;
+}
+
+button {
+    font-size: 25px;
+    padding: 15px 30px;
+    background-color: #1fc8c8;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.home {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home div img {
+    width: 700px;
+}
+
+.content > h1 {
+    font-size: 70px;
+    line-height: 100px;
+}
+.content > p{
+    font-size: 20px;
+    margin: 30px 0;
+    line-height: 40px;
+}
+
+.operation {
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.right > h3{
+    font-size: 40px;
+    margin: 50px;
+}
+.right > div {
+    margin: 50px;
+}
+.right div h4 {
+    font-size: 30px;
+}
+.right div p {
+    margin: 10px 50px;
+}
+
+#red {
+    color: #ef7373;
+    margin: 10px;
+}
+#green {
+    color: rgb(84, 221, 84);
+    margin: 10px;
+}
+#blue {
+    color: #9165e8;
+    margin: 10px;
+}
+
+.left > img {
+    width: 700px;
+}
+
+.feature {
+    margin: 100px;
+}
+.feature > h3 {
+    font-size: 50px;
+    text-align: center;
+    margin: 100px;
+}
+
+.card div img {
+    width: 50px;
+}
+
+.feature > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    padding-top: 50px;
+    border-radius: 30px;
+    box-shadow: 10px 10px #b7dbcf;
+}
+.icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f09999;
+    margin-bottom: 20px;
+}
+
+.abc {
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.abc:hover {
+    background-color: #643eaf;
+    color: #fff;
+}
+
+.abc > h4 {
+    font-size: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+.abc > p {
+    text-align: center;
+}
+
+.two {
+    background-color: #f3bfbf;
+}
+.three {
+    background-color: #a3e8d1;
+}
+.four {
+    background-color: rgb(240, 171, 240);
+}
