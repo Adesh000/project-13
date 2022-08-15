@@ -173,3 +173,33 @@ button {
 .four {
     background-color: rgb(240, 171, 240);
 }
+
+@media screen and (max-width: 720px){
+    nav {
+        flex-direction: column;
+    }
+
+    .list {
+        width: 500px;
+        left: 0;
+        margin: 30px;
+    }
+
+    .home {
+        flex-direction: column;
+    }
+
+    .operation{
+        flex-direction: column;
+    }
+
+    .feature div {
+        flex-direction: column;
+    }
+    .card {
+        margin: 30px 0;
+    }
+    .feature > h3 {
+        margin: 0;
+    }
+}
